@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:http/http.dart' as http;
+import 'package:mi_punto_de_venta/api_key.dart';
 
 // Clase para definir un mensaje
 class ChatMessage {
@@ -37,7 +38,7 @@ class ChatbotFab extends StatelessWidget {
               controller.clear();
 
               // Pega la Clave de API que copiaste de Google Cloud
-              const apiKey = "AIzaSyDSVt1G4BMQk6uyxdU4R81cW9Q7mUWDqzQ"; 
+              const apiKey = googleApiKey;
               
               final url = Uri.parse(
                   'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=$apiKey');
