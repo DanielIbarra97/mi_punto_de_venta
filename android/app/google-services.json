@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "440510340616",
+    "project_id": "mipuntodeventapc",
+    "storage_bucket": "mipuntodeventapc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440510340616:android:61978fe948afed1a567bbd",
+        "android_client_info": {
+          "package_name": "com.example.mi_punto_de_venta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw1SgchUFajkxm1gx__ro50uUl20aNAR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
