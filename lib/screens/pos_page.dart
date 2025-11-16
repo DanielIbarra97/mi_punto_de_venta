@@ -166,7 +166,7 @@ class _PosPageState extends State<PosPage> {
       // El carrito ahora está en el 'endDrawer'
       endDrawer: const Drawer(
         width: 450, 
-        child: CartPanel(),
+        child: CartPanel(), // <--- ESTE ES UNO DE LOS ERRORES
       ),
       floatingActionButton: const ChatbotFab(),
     );
@@ -180,7 +180,7 @@ class _PosPageState extends State<PosPage> {
         body: const TabBarView(
           children: [
             ProductGrid(),
-            CartPanel(),
+            CartPanel(), // <--- ESTE ES EL OTRO ERROR
           ],
         ),
         floatingActionButton: const ChatbotFab(),

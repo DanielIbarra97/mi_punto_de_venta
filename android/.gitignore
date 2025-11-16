@@ -12,5 +12,3 @@ GeneratedPluginRegistrant.java
 key.properties
 **/*.keystore
 **/*.jks
-# Ignorar clave de API
-/lib/api_key.dart
